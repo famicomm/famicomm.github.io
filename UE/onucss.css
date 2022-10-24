@@ -1,0 +1,112 @@
+body,html{
+  margin: auto;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+.header {
+  width: 100%;
+  height: 75px;
+}
+
+
+.header .logo {
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header .logo img {
+  width: 200px;
+  height: 60px;
+}
+
+.bodyhtml {
+  width: 1400px;
+  height: 800px;
+  margin: auto;
+}
+
+.buttons {
+  margin-top: 0px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons a {
+  padding: 16px;
+  background-color: #dbdbdb;
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+  width: 450px;
+  margin-right: 5px;
+  margin-left: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+.paragraph {
+
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: auto;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.paragraph .text {
+
+  position: relative;
+  border-radius: 20px;
+  padding: 10px;
+  width: 500px;
+  margin: 20px;
+  margin-left: -23px;
+  padding-bottom: 10px;
+  /* margin-bottom: 270px; */
+}
+.paragraph .text p {
+  color: #000;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.paragraph .image {
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  border-color: #fff;
+}
+
+.paragraph .image img{
+  border-radius: 20px;
+
+}
+
+.paragraph .image {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.paragraph .image p{
+  font-size: 10px;
+  margin-left: 80%;
+}
+.paragraph a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+
+}

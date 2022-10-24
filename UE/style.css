@@ -1,0 +1,267 @@
+body,html{
+  margin: auto;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+
+.sectiontop p{
+  left: 0;
+  top: 0;
+  margin: 5px;
+  color: #fff;
+  text-shadow: 0px 5px 10px rgba(0, 0, 0, 1);
+}
+
+.sectiontop{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-image: url("photos/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: slide 10s infinite;
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.content h1{
+  text-shadow: 0px 5px 10px rgba(0, 0, 0, 1);
+  color: #dbdbdb;
+  font-size: 60px;
+  font-weight: 700;
+
+}
+
+/* ! Box Glass */
+.container{
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: auto;
+  flex-wrap: wrap;
+  /* z-index: 1; */
+  background: url("photos/4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.container2{
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: auto;
+  flex-wrap: wrap;
+  /* z-index: 1; */
+  background: url("photos/5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+h3{
+  color: #fff;
+  text-align: center;
+}
+.container .card{
+  position: relative;
+  width: 400px;
+  height: 450px;
+  margin: 30px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 1);
+  border-radius: 15px;
+  background: rgba(255,255,255, 0.05);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  border-left: 1px solid rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(5px);
+  transition: 0.3s;
+}
+
+.container2 .card2{
+  position: relative;
+  width: 600px;
+  height: 430px;
+  margin: 30px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 1);
+  border-radius: 15px;
+  background: rgba(255,255,255, 0.05);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  border-left: 1px solid rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(5px);
+  transition: 0.3s;
+}
+
+.all .container .card .content{
+  padding: 2px;
+  text-align: center;
+}
+
+.all .container .card .content2{
+  padding: 2px;
+  text-align: center;
+}
+.all .container .card .content h2{
+  position: absolute;
+  top: -20px;
+  right: 30px;
+  font-size: 8em;
+  color: rgba(255, 255, 255, 0.07);
+  pointer-events: none;
+}
+
+h4{
+  right: 30px;
+  margin: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.07);
+  pointer-events: none;
+  color: #fff;
+}
+.all .container .card .content h3{
+  font-size: 30px;
+  font-weight: 800;
+  color: #fff;
+  z-index: 1;
+  padding: 15px;
+}
+.all .container .card .content p{
+  font-size: 17px;
+  /* font-weight: 600; */
+  color: #fff;
+
+}
+.all .container .card .content a{
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: 15px;
+  background: #fff;
+  color: #000;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+.all .container2 .card2 .content{
+  padding: 20px;
+  text-align: center;
+}
+
+.all .container2 .card2 .content2{
+  padding: 20px;
+  text-align: center;
+}
+.all .container2 .card2 .content h2{
+  position: absolute;
+  top: -20px;
+  right: 30px;
+  font-size: 8em;
+  color: rgba(255, 255, 255, 0.07);
+  pointer-events: none;
+}
+.all .container2 .card2 .content h3{
+  font-size: 30px;
+  font-weight: 800;
+  color: #fff;
+  z-index: 1;
+  padding: 15px;
+}
+.all .container2 .card2 .content p{
+  font-size: 15px;
+  /* font-weight: 600; */
+  color: #fff;
+}
+.all .container2 .card2 .content a{
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: 15px;
+  background: #fff;
+  color: #000;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+/* ! Fine Box Glass */
+
+.all .container a{
+  position: absolute;
+  /* display: inline-block; */
+  padding: 8px 10px;
+  left: 0;
+  top: 0;
+  background: #fff;
+  color: #000;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 800;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 1);
+  transition: 0.3s;
+  z-index: 5;
+}
+
+a{
+  position: relative;
+  display: inline-block;
+  padding: 12px 16px;
+  margin: 15px;
+  background: #dbdbdb;
+  color: #121212;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 1);
+  transition: 0.3s;
+  z-index: 1;
+}
+
+a:hover{
+ transform: scale(1.1);
+}
+.container a:hover{
+ transform: scale(1.1);
+}
+.container .card:hover{
+ transform: scale(1.1);
+}
+
+.container2 .card2:hover{
+ transform: scale(1.1);
+}
+@keyframes slide {
+
+0%{
+  background-image: url("photos/1.jpg");
+}
+
+50%{
+  background-image: url("photos/2.jpg");
+}
+
+80%{
+  background-image: url("photos/3.jpg");
+}
+}
